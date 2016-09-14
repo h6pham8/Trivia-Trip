@@ -1,4 +1,4 @@
-# Trivia-Trip
+# Trivia Trip
 
 On a long road trip, my friends and I usually quiz each other on random trivia facts to help pass time. It's usually hard for us to find
 a good website that has a variety of different questions with topics that we enjoy. I created Trivia Trip in hopes to provide my friends and I
