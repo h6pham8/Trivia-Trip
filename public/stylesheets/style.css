@@ -1,0 +1,61 @@
+
+h6 {
+    font-weight: normal !important;
+    text-transform: none !important;
+    font-size: .96em !important;
+}
+
+.content .list-group-item-text {
+    font-size: 14px !important;
+    text-align: right;
+    display: none;
+}
+
+#containerQuestions {
+    display: none;
+}
+
+h4.displayleft {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+li.displayright {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+
+.displayright .dropdown-menu {
+    align-content: right;
+}
+
+#containerWelcome {
+    text-align: center;
+}
+
+#displayWelcome:hover {
+    cursor: default !important;
+}
+
+#difficultyLevel {
+    width: 35%;
+    margin: auto;
+}
+
+a:hover {
+    cursor: default;
+}
+
+.dropdown-menu {
+    left: -110% !important;
+}
+
+#hiddenNav {
+    width: 500px !important;
+}
+
+.navbar-nav>li>a {
+    padding-bottom: 0px !important;
+}

@@ -1,0 +1,131 @@
+doctype html
+html(lang='en')
+
+  include base
+
+  head
+    title Trivia Trip
+
+  body
+    .wrapper
+      .sidebar(data-color='azure', data-image='/images/sidebar-2.jpg')
+        .sidebar-wrapper
+          .logo#displayWelcome
+            a.simple-text
+              | Trivia Trip
+          ul.nav
+            li.active
+              li
+                a.trivCategory#6534
+                  i.fa.fa-font
+                  p Add A Letter
+              li
+                a.trivCategory#356
+                  i.fa.fa-eye
+                  p Anatomy
+              li
+                a.trivCategory#21
+                  i.fa.fa-paw
+                  p Animals
+              li
+                a.trivCategory#224
+                  i.fa.fa-tree
+                  p Biology
+              li
+                a.trivCategory#777
+                  i.fa.fa-apple
+                  p Fruits & Veges
+              li
+                a.trivCategory#249
+                  i.fa.fa-deaf
+                  p Homophones
+              li
+                a.trivCategory#969
+                  i.fa.fa-calculator
+                  p Math
+              li
+                a.trivCategory#25
+                  i.fa.fa-bug
+                  p Science
+              li
+                a.trivCategory#32
+                  i.fa.fa-gamepad
+                  p Toys & Games
+              li
+                a.trivCategory#103
+                  i.fa.fa-car
+                  p Transportation
+              li
+                a.trivCategory#17
+                  i.fa.fa-map-marker
+                  p U.S. States
+              li
+                a.trivCategory#420
+                  i.fa.fa-balance-scale
+                  p Weight & Measures
+              li
+                a.trivCategory#105
+                  i.fa.fa-users
+                  p 3 Letter Words
+
+      .main-panel
+        nav.navbar.navbar-default.navbar-fixed
+          .container-fluid
+            .navbar-header
+              button.navbar-toggle(type='button', data-toggle='collapse', data-target='.sidebar-nav')
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+              //empty space in the top nav-bar (future use)
+              a.navbar-brand
+            .collapse.navbar-collapse
+              ul.nav.navbar-nav.navbar-left
+
+        .content
+          .container-fluid
+            .row
+              .col-md-12#containerWelcome
+                .card
+                  .header
+                    h2.title#welcomeTitle Trivia Trip
+                    br
+                    p Welcome! Enjoy over 1000 trivia questions across a variety of topics
+                    br
+                    p To begin, select a topic in the navigation panel
+                    p Display answers by either clicking on the question, or display all answers by clicking on the settings gear
+                    br
+                    p Trivia questions are color coded into four different difficulty categories
+                    div#difficultyLevel
+                      a.list-group-item.list-group-item-action.list-group-item-success Easy
+                      a.list-group-item.list-group-item-action.list-group-item-info Medium
+                      a.list-group-item.list-group-item-action.list-group-item-warning Challenging
+                      a.list-group-item.list-group-item-action.list-group-item-danger Very Difficult
+                    br
+
+              .col-md-12#containerQuestions
+                .card
+                  .header
+                    h4.title.displayleft Trivia Questions
+                    ul(style = 'float:right').dropdown.displayRight
+                      a.dropdown-toggle(href='#', data-toggle='dropdown')
+                        i.fa.fa-cog
+                      ul.dropdown-menu
+                        li
+                          a.toggle-answers-on Display All Answers
+                        li
+                          a.toggle-answers-off Hide All Answers
+                    p.category.addTopic
+                      .content
+                        ul.list-group
+                          //list here of questions and answers is populated through JS
+
+        footer.footer
+          .container-fluid
+            p.copyright.pull-right
+              | Created by HP
+
+  script(type = 'text/javascript' src="/javascripts/base.js")
+
+
+
