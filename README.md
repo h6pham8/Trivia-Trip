@@ -1,7 +1,7 @@
 # Trivia Trip
 
 On a long road trip, my friends and I usually quiz each other on random trivia facts to help pass time. It's usually hard for us to find
-a good website that has a variety of different questions with topics that we enjoy. I created Trivia Trip in hopes to provide my friends and I
+a good website that has a variety of different questions, with topics that we enjoy. I created Trivia Trip in hopes to provide my friends and I
 with a simple interface that provides us with trivia questions across topics that we enjoy. I also utilized this opportunity to further
 develop on my web development skills and touch on some new technologies which I listed below.
 
