@@ -8,7 +8,7 @@ develop on my web development skills and touch on some new technologies which I 
 Trivia Trip is a single page application that consists of a variety of fun & universal topics such as 
 Animals/Science/U.S. States/Math/etc... It utilizes jService.io's trivia API to populate the trivia questions
 
-Trivia Trip comes with some helpful features such as :
+Trivia Trip comes with some useful features such as :
 - a color coded system to define the difficulty of each question
 - a display all/hide all answers button
 - a responsive mobile capabilities
