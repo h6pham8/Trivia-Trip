@@ -37,7 +37,7 @@ function initializeTriviaCategoryClick () {
 
         //API call to get trivia questions and answers and populate the list
         $.ajax({
-            url: "https://jservice.io/api/category?id=" + this.id
+            url: "http://jservice.io/api/category?id=" + this.id
         }).done(function (data) {
 
             triviaTopic = data.title;
