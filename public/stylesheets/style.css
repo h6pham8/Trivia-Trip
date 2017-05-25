@@ -63,3 +63,7 @@ a:hover {
     display: inline !important;
     padding: 30px;
 }
+
+#displayWelcome> a:hover, #displayWelcome> a:focus {
+    background-color: rgba(244, 229, 247, 0.39);
+}
