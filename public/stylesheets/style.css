@@ -58,3 +58,8 @@ a:hover {
 .navbar-nav>li>a {
     padding-bottom: 0px !important;
 }
+
+#hiddenNav>li>a>p {
+    display: inline !important;
+    padding: 30px;
+}
