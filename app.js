@@ -11,9 +11,6 @@ var users = require('./routes/users');
 
 var app = express();
 
-//connect to mongoDB
-mongoose.connect('mongodb://h6pham8:Jfkown441@jello.modulusmongo.net:27017/sE2desiv');  //connect to mongoDB database on modulus.io
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
