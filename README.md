@@ -9,16 +9,16 @@ Trivia Trip is a single page application that consists of a variety of fun & uni
 Animals/Science/U.S. States/Math/etc... It utilizes jService.io's trivia API to populate the trivia questions
 
 Trivia Trip comes with some useful features such as :
-- a color coded system to define the difficulty of each question
-- a display all/hide all answers button
-- a responsive mobile capabilities
+- color coded system to define the difficulty of each question
+- display all/hide all answers button
+- responsive mobile environment
   
 Trivia Trip is built on the following technologies:
 - NodeJS
 - Express
 - Jade HTML Preprocessor
 - Bootstrap framework
-- HTML/CSS/JS(Jquery)
+- HTML/CSS/JS(Jquery Library)
   
 Welcome Page:   
 ![alt tag](https://github.com/h6pham8/Trivia-Trip/blob/master/public/images/welcomepage.png)
